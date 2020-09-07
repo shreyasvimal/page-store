@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 import Home from './Home';
+import Footer from './Footer';
 
 const containerStyle = {
   paddingLeft: 0,
@@ -18,7 +19,7 @@ const App = () => (
         <Home />
       </Col>
       <Col xs={12}>
-        Footer
+        <Footer />
       </Col>
     </Row>
   </Container>
